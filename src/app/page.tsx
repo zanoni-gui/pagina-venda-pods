@@ -132,7 +132,7 @@ export default function SupplyLandingPage() {
         {/* Logo */}
         <div className="relative z-10 mb-12 sm:mb-16">
           <img 
-            src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/3eea9183-b649-4d87-bae3-cc8624c93b6f.jpg" 
+            src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/fee0ee71-349c-475e-8ecc-121019078092.png" 
             alt="SUPPLY Logo" 
             className="h-24 sm:h-32 md:h-40 w-auto drop-shadow-[0_0_25px_rgba(77,208,225,0.6)]"
           />
@@ -360,16 +360,18 @@ export default function SupplyLandingPage() {
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               Entre em contato pelo WhatsApp agora e receba todas as informações sobre nossos produtos, preços e condições especiais!
             </p>
-            <button 
-              onClick={scrollToWhatsApp}
-              className="group relative px-10 sm:px-12 py-4 sm:py-5 bg-gradient-to-r from-[#00BCD4] to-[#4DD0E1] text-black font-bold text-lg sm:text-xl rounded-2xl shadow-[0_0_40px_rgba(77,208,225,0.6)] hover:shadow-[0_0_60px_rgba(77,208,225,0.9)] transition-all duration-300 hover:scale-105"
+            <a 
+              href="https://wa.me/5551995886039"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative inline-block px-10 sm:px-12 py-4 sm:py-5 bg-gradient-to-r from-[#00BCD4] to-[#4DD0E1] text-black font-bold text-lg sm:text-xl rounded-2xl shadow-[0_0_40px_rgba(77,208,225,0.6)] hover:shadow-[0_0_60px_rgba(77,208,225,0.9)] transition-all duration-300 hover:scale-105"
             >
               <span className="relative z-10 flex items-center gap-2">
                 <MessageCircle className="w-6 h-6" />
                 Chamar no WhatsApp
               </span>
               <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 rounded-2xl transition-opacity duration-300"></div>
-            </button>
+            </a>
           </div>
         </div>
       </section>
